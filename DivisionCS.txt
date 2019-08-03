@@ -1,0 +1,20 @@
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Info3070Exercises.Models
+{
+    public class Division
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        [StringLength(200)]
+        public string Name { get; set; }
+
+        [Column(TypeName = "timestamp")]
+        [MaxLength(8)]
+        [Timestamp]
+        public byte[] Timer { get; set; }
+    }
+}

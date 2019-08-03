@@ -1,0 +1,40 @@
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+
+namespace Info3070Exercises.Models
+{
+    public class Student
+    {
+        [Key]
+        public int Id { get; set; }
+
+        public virtual Division Division { get; set; }
+
+        [StringLength(4)]
+        public string Title { get; set; }
+
+        [StringLength(50)]
+        public string FirstName { get; set; }
+
+        [StringLength(50)]
+        public string LastName { get; set; }
+
+        [StringLength(25)]
+        public string PhoneNo { get; set; }
+
+        [StringLength(50)]
+        public string Email { get; set; }
+
+        public int DivisionId { get; set; }
+
+        public byte[] Picture { get; set; }
+
+        [Column(TypeName = "timestamp")]
+        [MaxLength(8)]
+        [Timestamp]
+        public byte[] Timer { get; set; }
+    }
+}
+
+
