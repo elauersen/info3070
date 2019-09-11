@@ -171,5 +171,5 @@ SELECT COUNT(*) AS Students FROM Students
 GO
 SELECT COUNT(*) AS Courses FROM Courses
 GO
-SELECT COUNT(*) AS Grades FROM Grades  -- will be zero, but tests if table is there
+SELECT COUNT(*) AS Grades FROM Grades
 GO
