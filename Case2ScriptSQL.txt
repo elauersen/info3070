@@ -3,13 +3,13 @@
 -- Data Connections -->Add Connection
 
 -- uncomment these lines if you need to reset data
-/*
 DROP TABLE Problems
 GO
 DROP TABLE Employees
 GO
 DROP TABLE Departments
 GO
+/*
 DROP TABLE Calls
 */
 
