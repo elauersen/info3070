@@ -1,14 +1,13 @@
--- create new database file in VS2017 Server Explorer
--- before proceeding
--- Data Connections -->Add Connection
+-- create new query in VS2019 SQL Server Object Explorer
+-- on the existing helpdeskDb before proceeding
 
--- uncomment these lines if you need to reset data
 DROP TABLE Problems
 GO
 DROP TABLE Employees
 GO
 DROP TABLE Departments
 GO
+-- uncomment these lines if you need to reset call data
 /*
 DROP TABLE Calls
 */
