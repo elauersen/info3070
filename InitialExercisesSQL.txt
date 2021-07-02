@@ -1,6 +1,4 @@
--- create new database file in VS2017 Server Explorer
--- before proceeding
--- Data Connections -->Add Connection
+-- create new localdb file in VS2019 SQL Server Object Explore
 
 -- uncomment these lines if you need to reset data
 /*
