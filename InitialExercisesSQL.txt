@@ -1,4 +1,4 @@
--- create new localdb file in VS2019 SQL Server Object Explore
+-- create new localdb file in VS2019 SQL Server Object Explorer
 
 -- uncomment these lines if you need to reset data
 /*
