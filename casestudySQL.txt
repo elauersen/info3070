@@ -1,6 +1,5 @@
--- create new database file in VS2017 Server Explorer
+-- create new database file in SQL Server Object Explorer
 -- before proceeding
--- Data Connections -->Add Connection
 
 -- uncomment these lines if you need to reset data
 /*
