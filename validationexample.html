@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Validation</title>
+    <meta charset="utf-8" />
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
+     <link href="css/site.css" rel="stylesheet" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="card col-10 col-sm-4 text-center mt-5" style=" margin: 0 auto; float: none;">
+        <div class="card-heading text-center">
+            First Find a Student to Validate
+        </div>
+        <div class="card-body">
+            <input type="text" placeholder="enter last name" id="TextBoxFindLastname" value="Gpa" class="form-control" />
+            <input type="button" value="Find" id="getbutton" class="mt-2" />
+        </div>
+    </div>
+    <form id="StudentModalForm" name="StudentModalForm" method="post" action="">
+        <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="myModalLabel">jQuery Validation</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mx-4 my-4">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    Validate Student Information with jQuery
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-4">Title:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter title" id="TextBoxTitle" name="TextBoxTitle" class="form-control" /></div>
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">First:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter first name" id="TextBoxFirstname" name="TextBoxFirstname" class="form-control" /></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">Surname:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter last name" id="TextBoxLastname" name="TextBoxLastname" class="form-control" /></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">Phone#:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter phone#" id="TextBoxPhone" name="TextBoxPhone" class="form-control" /></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">Email:</div>
+                                        <div class="col-8"><input type="text" placeholder="enter email address" id="TextBoxEmail" name="TextBoxEmail" class="form-control" /></div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <div id="modalstatus" class="text-left mt-3 mb-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="lib/js/jquery.validate.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="js/validationexample.js"></script>
+</body>
+</html>
