@@ -46,7 +46,7 @@ INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES 
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Total','Slacker','(555) 555-5552','ts@someschool.com',20)
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Ab','Sent','(555) 555-5552','as@someschool.com',20)
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Brain','Iac','(555) 555-5553','bi@someschool.com',30)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Plag','Iarism','(555) 555-5553','pi@someschool.com',30)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Super','Smart','(555) 555-5553','ss@someschool.com',30)
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Always','Answers','(555) 555-5554','aa@someschook.com',40)
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Ms.','Tru','Ant','(555) 555-5554','ta@someschool.com',40) 
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Ms.','High','Gpa','(555) 555-5555','hg@someschool.com',50) 
