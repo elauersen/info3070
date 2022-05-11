@@ -1,4 +1,4 @@
--- create new localdb file in VS2019 SQL Server Object Explorer
+-- create new localdb file in VS2022 SQL Server Object Explorer
 
 -- uncomment these lines if you need to reset data
 /*
@@ -41,16 +41,16 @@ CREATE TABLE Students
 GO
 
 -- add initial data, we'll add student pics later
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Brown','Nose','(555) 555-5551','bn@someschool.com',10)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mrs.','Teachers','Pet','(555) 555-5551','tp@someschool.com',10)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Total','Slacker','(555) 555-5552','ts@someschool.com',20)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Ab','Sent','(555) 555-5552','as@someschool.com',20)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Brain','Iac','(555) 555-5553','bi@someschool.com',30)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Super','Smart','(555) 555-5553','ss@someschool.com',30)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Always','Answers','(555) 555-5554','aa@someschook.com',40)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Ms.','Tru','Ant','(555) 555-5554','ta@someschool.com',40) 
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Ms.','High','Gpa','(555) 555-5555','hg@someschool.com',50) 
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Know','Itall','(555) 555-5555','ki@someschool.com',50) 
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Chris','Cross','(555) 555-5551','cc@someschool.com',10)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mrs.','Gail','Storm','(555) 555-5551','gs@someschool.com',10)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Donny','Brook','(555) 555-5552','db@someschool.com',20)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Gil','Fish','(555) 555-5552','gf@someschool.com',20)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Harry','Beard','(555) 555-5553','hb@someschool.com',30)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Jack','Pott','(555) 555-5553','jp@someschool.com',30)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Marshall','Law','(555) 555-5554','ml@someschook.com',40)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Ms.','Lily','Pond','(555) 555-5554','lp@someschool.com',40) 
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Ms.','Honey','Bee','(555) 555-5555','hb@someschool.com',50) 
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Muddy','Waters','(555) 555-5555','mw@someschool.com',50) 
 GO
 
 SELECT COUNT(*) AS Divisions FROM Divisions
