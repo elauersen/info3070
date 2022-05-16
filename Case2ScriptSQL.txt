@@ -72,13 +72,13 @@ GO
 INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mr.','Bigshot','Smartypants','(555) 555-5551','bs@abc.com',100)
 INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mrs.','Penny','Pincher','(555) 555-5551','pp@abc.com',100)
 INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mr.','Smoke','Andmirrors','(555) 555-5552','sa@abc.com',200)
-INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mr.','Sam','Slick','(555) 555-5552','ng@abc.com',200)
+INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mr.','Sam','Slick','(555) 555-5552','ss@abc.com',200)
 INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mr.','Sloppy','Joe','(555) 555-5553','sj@abc.com',300)
 INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mr.','Franken','Beans','(555) 555-5553','wc@abc.com',300)
-INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId,IsTech) VALUES ('Mr.','Bunsen','Burner','(555) 555-5554','sc@abc.com',400,1)
-INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId,IsTech) VALUES ('Ms.','Petrie','Dish','(555) 555-5554','td@abc.com',400,1) 
-INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Ms.','Mopn','Glow','(555) 555-5555','td@abc.com',500) 
-INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mr.','Spickn','Span','(555) 555-5555','td@abc.com',500) 
+INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId,IsTech) VALUES ('Mr.','Bunsen','Burner','(555) 555-5554','bb@abc.com',400,1)
+INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId,IsTech) VALUES ('Ms.','Petrie','Dish','(555) 555-5554','pd@abc.com',400,1) 
+INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Ms.','Mopn','Glow','(555) 555-5555','mg@abc.com',500) 
+INSERT INTO Employees (Title,FirstName,LastName,PhoneNo,Email,DepartmentId) VALUES ('Mr.','Spickn','Span','(555) 555-5555','sp@abc.com',500) 
 -- add 1 more insert here for yourself
 GO
 
