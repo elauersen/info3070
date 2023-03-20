@@ -42,7 +42,7 @@ GO
 
 -- add initial data, we'll add student pics later
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Chris','Cross','(555) 555-5551','cc@someschool.com',10)
-INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mrs.','Gail','Storm','(555) 555-5551','gs@someschool.com',10)
+INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mrs.','Sunny','Disposition','(555) 555-5551','gs@someschool.com',10)
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Donny','Brook','(555) 555-5552','db@someschool.com',20)
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Gil','Fish','(555) 555-5552','gf@someschool.com',20)
 INSERT INTO Students (Title,FirstName,LastName,PhoneNo,Email,DivisionId) VALUES ('Mr.','Harry','Beard','(555) 555-5553','hb@someschool.com',30)
