@@ -1,8 +1,8 @@
-﻿using System.Reflection;
+using System.Reflection;
 
 namespace ExercisesDAL
 {
-    public class ExercisesDALPicUtil
+    public class PicsUtility
     {
         readonly Dictionary<string, string>? DictionaryStudents = new();
 
@@ -17,7 +17,7 @@ namespace ExercisesDAL
                 foreach (var studentEntry in DictionaryStudents!)
                 {
                     Student? student = await repo.GetOne(stu => stu.LastName == studentEntry!.Key);
-                    
+
                     if (student is not null)
                     {
                         byte[] pic = Convert.FromBase64String(studentEntry.Value);
